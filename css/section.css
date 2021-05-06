@@ -1,11 +1,11 @@
 .section {
   margin: 10px 0;
-  background: hsl(0, 0%, 100%); 
+  background-color: hsl(177, 70%, 41%);
   box-shadow: 0 0 30px hsl(0, 0%, 93%); 
 }
 
 .section__links {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(203, 92%, 55%);
   padding: 20px;
   cursor: context-menu;
 }
@@ -20,10 +20,6 @@
 .section__button:hover {
   background-color: hsl(203, 92%, 55%);
   color: hsl(0, 0%, 100%);
-}
-
-.section__button:active {
-  background-color: hsl(203, 92%, 45%);
 }
 
 .section__button--link {
@@ -51,6 +47,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px; 
+  color: hsl(210, 14%, 43%);
 }
 
 @media (max-width: 414px) {
@@ -61,7 +58,7 @@
 
 .section__title {
   padding: 40px;
-  color: hsl(177, 70%, 41%);
+  color: hsl(0, 0%, 100%);
   font-size: 35px;
   margin: 0;
   text-align: left;
